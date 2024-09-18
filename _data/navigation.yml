@@ -1,0 +1,55 @@
+# the production_url is the url that the parent/child site have in common
+#  e.g. production_url: https://ucsb-cs24.github.io
+#  for main site http://ucsb-cs24.github.io
+#  and child sites
+#    https://ucsb-cs24.github.io/w18
+#    https://ucsb-cs24.github.io/f18
+#    https://ucsb-cs24.github.io/s19
+#    etc.
+
+production_url: https://ucsb-ccs-computing.github.io
+
+# List the title and url for each item on navigation bar.
+# For items that should be relative urls, put the baseurl of the site
+# they come from, / for main site, and /f18, /s19, etc for child sites.
+
+home:
+   title: UCSB CCS Computing
+   url: /
+   baseurl: /
+
+offerings:
+   title: "F24-1A"
+   url: /	
+   baseurl: /F24-1A
+   items:
+      - title: "F24-1A"
+        url: /
+        baseurl: /F24-1A
+      - title: "F23-1A"
+        url: /
+        baseurl: /F23-1A
+      - title: "F22-1A"
+        url: /
+        baseurl: /F22-1A
+      - title: "F21-1A"
+        url: /
+        baseurl: /F21-1A
+      - title: "F20-1A"
+        url: /
+        baseurl: /F20-1A
+      - title: "F19-1A"
+        url: /
+        baseurl: /F19-1A
+      - title: "F19-1L"
+        url: /
+        baseurl: /F19-1L
+
+offering_links:
+   - title: Lab
+     url: /lab/
+     description: "Lab Assignments"
+   - title: Github
+     dropdown:
+         - title: CCS-1A-F24
+           url: https://github.com/CCS-1A-F24
